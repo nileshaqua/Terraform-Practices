@@ -17,3 +17,8 @@ resource "azurerm_resource_group" "nileshrg1" {
   name     = "nileshrg1"
   location = "West Europe"
 }
+
+resource "azurerm_resource_group" "nileshrg1" {
+  name     = "nileshrg1"
+  location = "West Europe"
+}
