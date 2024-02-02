@@ -8,5 +8,12 @@ terraform {
 }
 
 provider "azurerm" {
-  # Configuration options
+  features{
+
+  }
+}
+
+resource "azurerm_resource_group" "nileshrg1" {
+  name     = "nileshrg1"
+  location = "West Europe"
 }
