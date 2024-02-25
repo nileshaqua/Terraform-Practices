@@ -1,2 +1,2 @@
-azurerm_resource_group = "nilesh-terraform-1"
-location = "eastus"
+azurerm_resource_group = "rgmygroup"
+location               = "eastus"

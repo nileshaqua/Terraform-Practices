@@ -1,5 +1,10 @@
-variable "resource_group_name_prefix" {
+variable "resource_group" {
   type        = string
-  default     = "rg"
-  description = "Prefix of the resource group name that's combined with a random ID so name is unique in your Azure subscription."
+  default     = "rgmygroup"
+  description = "Resourcegroup name"
+}
+
+variable "location" {
+  type = string
+  default = "eastus"
 }
