@@ -17,3 +17,15 @@ resource "azurerm_resource_group" "mygroup" {
   name     = var.resource_group
   location = var.location
 }
+
+resource "azurerm_storage_account" "nileshstorage2602" {
+  name                     = "nilesh123"
+  resource_group_name      = var.resource_group
+  location                 = var.location
+  account_tier             = "Standard"
+  account_replication_type = "LRS"
+
+  tags = {
+    environment = "staging"
+  }
+}
