@@ -19,7 +19,7 @@ resource "azurerm_resource_group" "mygroup" {
 }
 
 resource "azurerm_storage_account" "nileshstorage2602" {
-  name                     = "nilesh123"
+  name                     = var.storage_account_name
   resource_group_name      = var.resource_group
   location                 = var.location
   account_tier             = "Standard"

@@ -5,6 +5,12 @@ variable "resource_group" {
 }
 
 variable "location" {
-  type    = string
+  type = string
   default = "eastus"
 }
+
+variable "storage_account_name" {
+  type = string
+  default = "nilesh123"
+}
+
